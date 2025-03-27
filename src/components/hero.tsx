@@ -66,7 +66,7 @@ export const Hero = () => {
     }
 
     return (
-        <div className="flex relative items-center justify-center pb-[100px] lg:h-[1500px] sml:h-[1350px] h-[1200px]">
+        <div className="flex relative items-center justify-center lg:h-[1500px] sml:h-[1350px] h-[1200px]">
             <div className="flex z-[1] absolute justify-between w-full max-w-[calc(100%+200px)] xxl:px-[150px] lg:top-[100px] md:top-[50px] top-[25px] lg:px-[100px] md:px-[50px]">
                 <Image
                     style={{ aspectRatio: "524 / 508" }}
@@ -94,7 +94,6 @@ export const Hero = () => {
                     Driven Tools, $5M+ Profits, and a 200+
                     <br /> Strong Members
                 </p>
-                <JoinBtn />
                 <Link href="https://x.com/flappy_alpha">
                     <div className="flex  items-center flex-col gap-2 pt-[12px]">
                         <XLogo />

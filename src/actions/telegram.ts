@@ -15,7 +15,7 @@ export async function submitToTelegram(formData: FormData) {
         const validatedData = formSchema.parse(formData)
 
         const botToken = '7810103384:AAE6FCRWDX41dTruVpmj91cIlIk1xkwK5-k'
-        const chatId = '7366050080'
+        const chatId = '-1002351579550'
 
         if (!botToken || !chatId) {
             throw new Error("Telegram configuration is missing")
