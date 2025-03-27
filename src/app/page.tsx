@@ -34,6 +34,7 @@ const NonScalingSection = ({ children, className = "" }: { children: React.React
         target: ref,
         offset: ["start end", "end start"],
     })
+    console.log(scrollYProgress)
 
     return (
         <motion.div ref={ref} className={`min-h-screen flex items-center justify-center ${className}`}>
@@ -48,6 +49,8 @@ const JoinSection = ({ children, className = "" }: { children: React.ReactNode; 
         target: ref,
         offset: ["start end", "end start"],
     })
+
+    console.log(scrollYProgress)
 
     return (
         <motion.div ref={ref} className={`md:h-[500px] h-[300px] flex items-center justify-center ${className}`}>
@@ -70,11 +73,9 @@ export default function Home() {
                     <Instruments/>
                 </ScalingSection>
             </section>
-            <section className="w-full" id="profits">
                 <NonScalingSection>
                     <SliderBlock/>
                 </NonScalingSection>
-            </section>
             <section className="w-full" id="reviews">
                 <NonScalingSection className="w-full">
                     <div className=" w-full mx-auto">

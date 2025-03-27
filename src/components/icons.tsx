@@ -259,7 +259,6 @@ export const SolanaLogo:React.FC<Props> = ({className})=>{
 
     )
 }
-
 export const OrangeMedale:React.FC<Props> = ({className})=> {
     return (
         <svg
@@ -500,7 +499,6 @@ export const SilverMedale:React.FC<Props> = ({className})=> {
 
     )
 }
-
 export const BitcoinLogo:React.FC<Props> = ({className}) => {
     return (
         <svg
@@ -641,7 +639,6 @@ export const SolanaLogoTwo:React.FC<Props> = ({className}) => {
 
     )
 }
-
 export const Union:React.FC<Props> = ({className}) => {
     return (
         <svg
@@ -1296,6 +1293,46 @@ export const Line:React.FC<Props> = ({className}) => {
                     />
                 </filter>
             </defs>
+        </svg>
+
+    )
+}
+export const XLogoInactive:React.FC<Props> = ({className}) => {
+    return (
+        <svg
+            className={className}
+            width={14}
+            height={12}
+            viewBox="0 0 14 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M0.143555 0.000976562H1.85723H1.85765H3.5709H3.57133H5.285V1.71508H3.57133V3.42832H5.285V5.14242H3.5709V3.42875H1.85723V1.71508H0.143555V0.000976562ZM5.28681 5.14423H7.00049H7.00091H8.71459V6.85791H10.4283V8.57158H12.1419V10.2853H13.8556V11.9994H12.1419H12.1415H10.4283H10.4278H8.71416V10.2857H7.00049V8.57201H5.28681V6.85833V6.85791V5.14423ZM7.00091 8.57158H8.71416V6.85833H7.00091V8.57158ZM8.71459 8.57201V10.2853H10.4278V8.57201H8.71459ZM3.5709 6.85791H5.285V8.57158V8.57201V10.2857H3.57133V11.9994H1.85765H1.85723H0.143555V10.2853H1.85723V8.57158H3.5709V6.85791ZM7.00091 1.71465H5.28681V3.42875H7.00049V5.14242H8.71416H8.71459H10.4283V3.42875H12.1419V1.71508H13.8556V0.000976562H12.1419H12.1415H10.4278V1.71465H8.71416V3.42832H7.00091V1.71465Z"
+                fill="#A49F74"
+            />
+        </svg>
+
+    )
+}
+export const XLogoActive: React.FC<Props> = ({className}) => {
+    return (
+        <svg
+            className={className}
+            width={15}
+            height={12}
+            viewBox="0 0 15 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M0.644043 0.000976562H2.35772H2.35814H4.07139H4.07182H5.78549V1.71508H4.07182V3.42832H5.78549V5.14242H4.07139V3.42875H2.35772V1.71508H0.644043V0.000976562ZM5.7873 5.14423H7.50097H7.5014H9.21507V6.85791H10.9287V8.57158H12.6424V10.2853H14.3561V11.9994H12.6424H12.642H10.9287H10.9283H9.21465V10.2857H7.50097V8.57201H5.7873V6.85833V6.85791V5.14423ZM7.5014 8.57158H9.21465V6.85833H7.5014V8.57158ZM9.21507 8.57201V10.2853H10.9283V8.57201H9.21507ZM4.07139 6.85791H5.78549V8.57158V8.57201V10.2857H4.07182V11.9994H2.35814H2.35772H0.644043V10.2853H2.35772V8.57158H4.07139V6.85791ZM7.5014 1.71465H5.7873V3.42875H7.50097V5.14242H9.21465H9.21507H10.9287V3.42875H12.6424V1.71508H14.3561V0.000976562H12.6424H12.642H10.9283V1.71465H9.21465V3.42832H7.5014V1.71465Z"
+                fill="#4E3B40"
+            />
         </svg>
 
     )

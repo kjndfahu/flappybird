@@ -5,7 +5,7 @@ import {Block} from "@/components/block";
 
 export const InfoBlock = () => {
     return (
-        <div className="flex flex-col relative items-center justify-center w-full md:px-[32px] px-[16px] pb-[102px]">
+        <div className="flex flex-col relative items-center justify-center w-full mt-[300px] md:px-[32px] px-[16px] pb-[102px]">
             <Image className="absolute z-[1] top-[-90px]" src={upperdots} alt="upper"/>
             <div
                 className="flex mds:flex-row flex-col mds:gap-3 gap-8 w-full z-[2] bg-[#DBDA96] md:px-[30px] px-[15px] md:pt-[42px] pt-[20px] md:pb-[30px] pb-[25px] border-[3px] border-[#D2AA4F] h-[100%] shadow-pixel">

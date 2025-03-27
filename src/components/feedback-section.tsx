@@ -49,7 +49,7 @@ export default function FeedbackSection() {
                                 </div>
                             </div>
                             <p>I joined @flappy_alpha
-                                earlier this month and decided to start a 1-100 challenge, just about 3 weeks later we've done it!
+                                earlier this month and decided to start a 1-100 challenge, just about 3 weeks later we ve done it!
                                 The community there is great, real alpha calls and vibes, and tons of info for new people, now time to 10x it!</p>
                         </div>
                     </div>
